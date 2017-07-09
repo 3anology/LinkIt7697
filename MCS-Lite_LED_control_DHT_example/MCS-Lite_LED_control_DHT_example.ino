@@ -17,7 +17,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 // Assign device id / key of your test device
 //MCSLiteDevice mcs("DeviceId","DeviceKey","MCS-Lite address",port)
-MCSLiteDevice mcs("Hk-auyT7Z", "827139dad6ed1b092340ff8b660b86f24cd72dec5c60ed24ea794ed0764eae6f","192.168.1.15",3000);
+MCSLiteDevice mcs("Id", "Key","MCS-Lite IP",3000);
 
 // Assign channel id 
 // The test device should have 4 channel
